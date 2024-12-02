@@ -1,0 +1,8 @@
+<?php
+
+return [
+  'version' => env('WHATSAPP_VERSION', 'v14.0'),
+  'phone_id' => env('WHATSAPP_PHONE_ID', '100987959312082'),
+  'token' => env('WHATSAPP_TOKEN', 'EABQ2ruwc1yQBAIwEc9ZAwCzvh1R0Xm1J71nU6G6kaZBdEuWZCYBpjC2bTOwn7cb1u3czGTdcMiZCvRlukWkXbjm2w1Jz9OCmE6BfRI78ZBmyZCgFOleSVFjxYLuEE4qLCZCZBm2XkZCwAqCJvwhiV0QloIacCQm2wcilsc48XhsKYM9kAZBU61W82b2VGgjBQZArDCdXCoOheOn2JWTRHRSINXo'),
+  'phone' => env('WHATSAPP_PHONE', '593939277927'),
+];

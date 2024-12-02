@@ -1,0 +1,67 @@
+.html-box-one-line > p,
+.html-box-one-line > h1,
+.html-box-one-line > h2,
+.html-box-one-line > h3,
+.html-box-one-line > h4,
+.html-box-one-line > h5,
+.html-box-one-line > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ql-container {
+  height: 600px !important;
+  border-radius: 0 0px 5px 5px;
+  border-color: #e2e8f0 !important;
+  overflow-y: auto;
+}
+.ql-snow .ql-tooltip {
+  left: auto !important;
+  margin-left: 0.5rem;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+.input-group-input-picker {
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: var(--color-base-subtle);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 1px;
+  padding-left: 1px;
+}
+
+.input-group-input-picker .input-picker {
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 37px;
+  background: transparent;
+}
+.input-group-input-picker .text{
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+.input-group-input-picker .text:focus{
+  border: none;
+  box-shadow: none;
+}
+.input-group-input-picker:focus {
+  border-color: var(--color-primary);
+}
+.input-group-label-des span{
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--color-base-contrast)
+}
+.max-h-modalFile{
+  max-height: calc(86vh - 300px)!important;
+}
