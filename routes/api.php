@@ -29,7 +29,7 @@ Route::group(['middleware' => 'client'], function () {
 
     Route::post('/contact/send', Api\ContactController::class)->name('api.contact-send');
 
-    Route::get('/page-info', Api\PageController::class)->name('api.page-get');
+    Route::get('/v1/page-info', Api\PageController::class)->name('api.page-get');
 
     Route::get('/v1/custom-module/{module}', [CreatedModuleController::class, 'index'])->name('api.custom-module-index');
 });
